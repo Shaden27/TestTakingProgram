@@ -16,11 +16,11 @@ public class QuestionCreator {
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
         Scanner sc=new Scanner(System.in);
         Questions[] q=new Questions[10];
-        File myfile=new File("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\Questions.dat");
+        File myfile=new File("YOURFILENAME FOR QUESTIONS");
         if(!myfile.exists()) {
             myfile.createNewFile();
         }
-        ObjectOutputStream oout=new ObjectOutputStream(new FileOutputStream("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\Questions.dat"));
+        ObjectOutputStream oout=new ObjectOutputStream(new FileOutputStream("YOURFILENAME FOR QUESTIONS"));
         String k;
         Object obj;
         double a;
