@@ -17,7 +17,7 @@ public class Server {
         ClientAnswers[] ca;
         int score;
         double start,stop,totalTime;
-        File myfile=new File("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\ClientFiles.dat");
+        File myfile=new File("YOURFILENAME FOR CLIENTDETAILS");
         if(!myfile.exists()) {
             myfile.createNewFile();
         }
