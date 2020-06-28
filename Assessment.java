@@ -9,7 +9,7 @@ import java.util.Collections;
 
 public class Assessment {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        ObjectInputStream oin = new ObjectInputStream(new FileInputStream("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\ClientFiles.dat"));
+        ObjectInputStream oin = new ObjectInputStream(new FileInputStream("YOURFILENAME FOR ClientData"));
         ArrayList<StoringClients> arrayList=new ArrayList<>();
         while(true){
             try {
