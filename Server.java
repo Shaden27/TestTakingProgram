@@ -21,9 +21,9 @@ public class Server {
         if(!myfile.exists()) {
             myfile.createNewFile();
         }
-        ObjectOutputStream oout=new ObjectOutputStream(new FileOutputStream("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\ClientFiles.dat"));
+        ObjectOutputStream oout=new ObjectOutputStream(new FileOutputStream("YOURFILENAME FOR CLIENTDETAILS"));
 
-        ObjectInputStream oin = new ObjectInputStream(new FileInputStream("C:\\Coding\\CodeBlocks\\Projects\\Js\\First\\src\\basics\\sockets\\gameQuestions\\files\\Questions.dat"));
+        ObjectInputStream oin = new ObjectInputStream(new FileInputStream("YOURFILENAME FOR QUESTIONS"));
         for(int i=0;i<10;i++) {
             arrayList.add((Questions) oin.readObject());
         }
